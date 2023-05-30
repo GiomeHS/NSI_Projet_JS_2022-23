@@ -26,12 +26,6 @@ if __name__== '__main__':
   # shader
   light = ursina.PointLight(parent=sun, shadows=False)
 
-  #start_time = time.time()
-  #def print_time():
-  #  elapsed_time = time.time() - start_time
-  #  print(round(elapsed_time))
-  #  ursina.Text(text="Temps passé : {}".format(round(ursina.time.time())), scale=2, origin=(0, 0))
-
   # update (boucle itérative built-in de Ursina)
   def update():
     # invoke(print_time, delay = 0)
